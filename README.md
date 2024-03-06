@@ -29,4 +29,4 @@
         * cv2
 
 * Model
-  #### Trained the convnext_xlarge_384 model using the Fastai Vision Learner on stratified split training data with various augmentations. Two epochs were used for training, and early stopping was implemented to control overfitting by monitoring the validation log loss. The test data was predicted, and test-time augmentation was applied to ensure confident predictions.
+  #### Trained the convnext_xlarge_384 model using the Fastai Vision Learner on stratified split training data with various augmentations. Two epochs were used for training, and an early stopping callback was used to control overfitting by monitoring the validation log loss. The test data was predicted, and test-time augmentation was applied to ensure confident predictions.
